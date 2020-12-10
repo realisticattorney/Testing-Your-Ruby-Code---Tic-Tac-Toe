@@ -18,7 +18,6 @@ class Game
   def valid?(pos)
     pos = pos.to_i
     return true if pos < 10 && pos.positive? && pos != 0 && pos.is_a?(Integer)
-
     return false
   end
 
