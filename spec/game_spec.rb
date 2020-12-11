@@ -62,7 +62,19 @@ describe Game do
       game.move(3,board,true)
       expect(game.did_win?(board).nil?).to eql true 
     end
-    
   end
-
+  context "#draw?" do
+    it "checks if first row is occupied" do
+      game.move(1,board,false)
+      game.move(2,board,true)
+      game.move(3,board,false)
+      game.move(4,board,false)
+      game.move(5,board,false)
+      game.move(6,board,true)
+      game.move(7,board,true)
+      game.move(8,board,false)
+      game.move(9,board,true)
+      expect(game.did_draw?(board)).to eql true 
+    end
+  end
 end
