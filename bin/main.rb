@@ -1,4 +1,4 @@
-# rubocop:disable
+# rubocop:disable all
 require_relative '../lib/player'
 require_relative '../lib/rules'
 require_relative '../lib/game'
@@ -62,4 +62,4 @@ while game_on
   end
   turn = !turn
 end
-# rubocop:enable
+# rubocop:enable all

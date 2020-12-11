@@ -1,3 +1,4 @@
+# rubocop:disable all
 class Rules
   attr_reader :rules
 
@@ -23,3 +24,4 @@ class Rules
     Good luck and have fun! :) \n "
   end
 end
+# rubocop:disable all

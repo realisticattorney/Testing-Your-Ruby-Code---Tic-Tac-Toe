@@ -1,4 +1,4 @@
-# rubocop:disable Style/RedundantReturn, Metrics/PerceivedComplexity, Metrics/CyclomaticComplexity, Metrics/AbcSize
+# rubocop:disable all
 require_relative './player'
 require_relative './rules'
 
@@ -45,4 +45,4 @@ class Game
     return true if board.include?(' ') == false
   end
 end
-# rubocop:disable Style/RedundantReturn, Metrics/PerceivedComplexity, Metrics/CyclomaticComplexity, Metrics/AbcSize
+# rubocop: enable all

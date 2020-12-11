@@ -1,3 +1,4 @@
+# rubocop:disable all
 class Player
   attr_accessor :name, :symbol
 
@@ -6,3 +7,5 @@ class Player
     @symbol = symbol
   end
 end
+# rubocop:endable all
+
