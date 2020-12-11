@@ -1,9 +1,6 @@
 #!/usr/bin/env ruby
-# frozen_string_literal: true
-
 # rubocop:disable Metrics/PerceivedComplexity
 # rubocop:disable Metrics/CyclomaticComplexity
-
 require_relative '../lib/player'
 require_relative '../lib/rules'
 require_relative '../lib/game'
