@@ -1,9 +1,4 @@
-# rubocop:disable Style/RedundantReturn
-# rubocop:disable Metrics/PerceivedComplexity
-# rubocop:disable Metrics/CyclomaticComplexity
-# rubocop:disable Metrics/AbcSize
-# Class to initialize game.
-
+# rubocop:disable Style/RedundantReturn, Metrics/PerceivedComplexity, Metrics/CyclomaticComplexity, Metrics/AbcSize
 require_relative './player'
 require_relative './rules'
 
@@ -50,8 +45,4 @@ class Game
     return true if board.include?(' ') == false
   end
 end
-
-# rubocop:enable Style/RedundantReturn
-# rubocop:enable Metrics/CyclomaticComplexity
-# rubocop:enable Metrics/PerceivedComplexity
-# rubocop:enable Metrics/AbcSize
+# rubocop:disable Style/RedundantReturn, Metrics/PerceivedComplexity, Metrics/CyclomaticComplexity, Metrics/AbcSize

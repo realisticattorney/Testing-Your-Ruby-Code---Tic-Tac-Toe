@@ -1,6 +1,4 @@
-#!/usr/bin/env ruby
-# rubocop:disable Metrics/PerceivedComplexity
-# rubocop:disable Metrics/CyclomaticComplexity
+# rubocop:disable Metrics/PerceivedComplexity, Metrics/CyclomaticComplexity
 require_relative '../lib/player'
 require_relative '../lib/rules'
 require_relative '../lib/game'
@@ -64,6 +62,4 @@ while game_on
   end
   turn = !turn
 end
-
-# rubocop:enable Metrics/PerceivedComplexity
-# rubocop:enable Metrics/CyclomaticComplexity
+# rubocop:disable Metrics/PerceivedComplexity, Metrics/CyclomaticComplexity
