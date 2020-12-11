@@ -24,4 +24,4 @@ class Rules
     Good luck and have fun! :) \n "
   end
 end
-# rubocop:disable all
+# rubocop:enable all

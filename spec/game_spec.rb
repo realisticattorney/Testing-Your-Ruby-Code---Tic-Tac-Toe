@@ -1,4 +1,4 @@
-# rubocop: disable Metrics/BlockLength, Metrics/
+# rubocop: disable Metrics/BlockLength, Metrics/LineLength
 require_relative '../lib/game'
 
 describe Game do

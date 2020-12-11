@@ -7,5 +7,5 @@ class Player
     @symbol = symbol
   end
 end
-# rubocop:endable all
+# rubocop:enable all
 
