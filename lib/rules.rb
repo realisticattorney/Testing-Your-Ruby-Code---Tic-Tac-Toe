@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Class to initialize RULES
 
 class Rules

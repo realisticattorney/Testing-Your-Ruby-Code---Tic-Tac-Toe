@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
+
 # rubocop:disable Metrics/PerceivedComplexity
 # rubocop:disable Metrics/CyclomaticComplexity
 
@@ -42,9 +44,10 @@ while game_on
   end
   pos = gets.chomp
   if game.valid?(pos)
-    if game.free?(pos, board) == true
+    case game.free?(pos, board)
+    when true
       game.move(pos, board, turn)
-    elsif game.free?(pos, board) == false
+    when false
       puts "POSITION #{pos} TAKEN! Please, Try again."
       display(board)
       next
