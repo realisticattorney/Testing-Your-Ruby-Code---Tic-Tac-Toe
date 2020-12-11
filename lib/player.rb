@@ -8,4 +8,3 @@ class Player
   end
 end
 # rubocop:enable all
-
